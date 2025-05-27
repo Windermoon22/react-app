@@ -1,19 +1,8 @@
-# Elixir – Healthy Food Delivery App 🍲
-
-Elixir is a mobile food delivery app focused on healthy meals, built using **React Native**. This app allows users to browse dishes, add to cart, and place orders seamlessly.
-
----
-
-## 🧩 Features
-
-- Onboarding screens
-- Secure sign-up & login
-- Forgot/reset password flow
-- Browse healthy food items
-- View detailed product descriptions
-- Cart, checkout, and payment selection
-- Order confirmation screen
-
----
-
-
+> Why do I have a folder named ".expo" in my project?
+The ".expo" folder is created when an Expo project is started using "expo start" command.
+> What do the files contain?
+- "devices.json": contains information about devices that have recently opened this project. This is used to populate the "Development sessions" list in your development builds.
+- "settings.json": contains the server configuration that is used to serve the application manifest.
+> Should I commit the ".expo" folder?
+No, you should not share the ".expo" folder. It does not contain any information that is relevant for other developers working on the project, it is specific to your machine.
+Upon project creation, the ".expo" folder is already added to your ".gitignore" file.
